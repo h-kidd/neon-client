@@ -82,7 +82,7 @@ const [nameInput, setNameInput] = useState('Player1');
             <label>Number of Players</label>
           </Col>  
           <Col xs='3' className='d-flex justify-content-end'>
-            <input className='inp-num' type='number' min ='1' max='4' value={numPlInput} onChange={handleNumPlInput} required/>
+            <input className='inp-num' type='number' min ='1' max='5' value={numPlInput} onChange={handleNumPlInput} required/>
           </Col>
         </Row>
 
